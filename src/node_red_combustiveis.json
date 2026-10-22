@@ -1,0 +1,393 @@
+[
+    {
+        "id": "b04e0acd2ced530d",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "79b702e4b64a605d",
+        "type": "http in",
+        "z": "b04e0acd2ced530d",
+        "name": "GET - Pagina Combustiveis",
+        "url": "/combustiveis",
+        "method": "get",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 120,
+        "y": 60,
+        "wires": [
+            [
+                "7633afd56779dafb"
+            ]
+        ]
+    },
+    {
+        "id": "4c07a0dc61630220",
+        "type": "http response",
+        "z": "b04e0acd2ced530d",
+        "name": "Enviar Pagina Combustiveis",
+        "statusCode": "",
+        "headers": {},
+        "x": 900,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "7633afd56779dafb",
+        "type": "file in",
+        "z": "b04e0acd2ced530d",
+        "name": "Ler Estatisticas CSV",
+        "filename": "C:\\Users\\franc\\Documents\\uni\\LESI\\3 ano 1 semetsre\\ISI_TP1\\resultados\\estatisticas_combustiveis.csv",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "utf8",
+        "allProps": false,
+        "x": 380,
+        "y": 60,
+        "wires": [
+            [
+                "4d929954a31f80ac"
+            ]
+        ]
+    },
+    {
+        "id": "4d929954a31f80ac",
+        "type": "csv",
+        "z": "b04e0acd2ced530d",
+        "name": "Converter CSV em Dados",
+        "spec": "rfc",
+        "sep": ";",
+        "hdrin": true,
+        "hdrout": "none",
+        "multi": "mult",
+        "ret": "\\r\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": false,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 630,
+        "y": 60,
+        "wires": [
+            [
+                "4c07a0dc61630220"
+            ]
+        ]
+    },
+    {
+        "id": "59ecb0429bb05c5c",
+        "type": "ui-table",
+        "z": "b04e0acd2ced530d",
+        "group": "7eadeb1467079f18",
+        "name": "Tabela Estatisticas Combustiveis",
+        "label": "Estatisticas dos Combustiveis",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "maxrows": 0,
+        "passthru": false,
+        "autocols": true,
+        "showSearch": true,
+        "deselect": true,
+        "selectionType": "click",
+        "columns": [],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "className": "",
+        "x": 880,
+        "y": 160,
+        "wires": [
+            [
+                "a0aa6d592aceb4e1"
+            ]
+        ]
+    },
+    {
+        "id": "8bcb7f831e1403ea",
+        "type": "csv",
+        "z": "b04e0acd2ced530d",
+        "name": "Converter CSV em Dados",
+        "spec": "rfc",
+        "sep": ";",
+        "hdrin": true,
+        "hdrout": "none",
+        "multi": "mult",
+        "ret": "\\r\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": false,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 610,
+        "y": 160,
+        "wires": [
+            [
+                "59ecb0429bb05c5c"
+            ]
+        ]
+    },
+    {
+        "id": "f7eaa0a72860d575",
+        "type": "file in",
+        "z": "b04e0acd2ced530d",
+        "name": "Ler Estatisticas CSV",
+        "filename": "C:\\Users\\franc\\Documents\\uni\\LESI\\3 ano 1 semetsre\\ISI_TP1\\resultados\\estatisticas_combustiveis.csv",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "utf8",
+        "allProps": false,
+        "x": 360,
+        "y": 160,
+        "wires": [
+            [
+                "8bcb7f831e1403ea"
+            ]
+        ]
+    },
+    {
+        "id": "62c8edcfc581e57f",
+        "type": "inject",
+        "z": "b04e0acd2ced530d",
+        "name": "Atualizar Estatisticas",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 160,
+        "wires": [
+            [
+                "f7eaa0a72860d575"
+            ]
+        ]
+    },
+    {
+        "id": "58592521ecd50023",
+        "type": "ui-chart",
+        "z": "b04e0acd2ced530d",
+        "group": "8a10b2fdae172023",
+        "name": "Grafico Registos Combustiveis",
+        "label": "Registos por Municipio e Combustivel",
+        "order": 9007199254740991,
+        "chartType": "bar",
+        "category": "Combustivel",
+        "categoryType": "property",
+        "xAxisLabel": "Município",
+        "xAxisProperty": "Municipio",
+        "xAxisPropertyType": "property",
+        "xAxisType": "category",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "Número de registos",
+        "yAxisProperty": "Numero_Registos",
+        "yAxisPropertyType": "property",
+        "ymin": "0",
+        "ymax": "",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": "12",
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 870,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a0aa6d592aceb4e1",
+        "type": "change",
+        "z": "b04e0acd2ced530d",
+        "name": "Converter Numero de Registos",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.Numero_Registos",
+                "pt": "msg",
+                "to": "$number(payload.Numero_Registos)",
+                "tot": "jsonata"
+            },
+            {
+                "t": "delete",
+                "p": "action",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 890,
+        "y": 240,
+        "wires": [
+            [
+                "58592521ecd50023"
+            ]
+        ]
+    },
+    {
+        "id": "7eadeb1467079f18",
+        "type": "ui-group",
+        "name": "Estatisticas por Municipio",
+        "page": "e07bae856983e28d",
+        "width": "12",
+        "height": "12",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default",
+        "tab": ""
+    },
+    {
+        "id": "8a10b2fdae172023",
+        "type": "ui-group",
+        "name": "Grafico de Combustiveis",
+        "page": "e07bae856983e28d",
+        "width": "12",
+        "height": "8",
+        "order": -1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default",
+        "tab": ""
+    },
+    {
+        "id": "e07bae856983e28d",
+        "type": "ui-page",
+        "name": "Comparador de Combustíveis",
+        "ui": "5b86a2a1b515aebe",
+        "path": "/page1",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "b640c2e0d850da61",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "tabs": [],
+        "order": 1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "5b86a2a1b515aebe",
+        "type": "ui-base",
+        "name": "My Dashboard",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 1,
+        "showDisconnectNotification": true,
+        "allowInstall": false
+    },
+    {
+        "id": "b640c2e0d850da61",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#fcfcfd",
+            "primary": "#0d74ce",
+            "bgPage": "#f9f9fb",
+            "groupBg": "#ffffff",
+            "groupOutline": "#d9d9e0"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "2ddf9a5ec97f0795",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "@flowfuse/node-red-dashboard": "1.33.0"
+        }
+    }
+]

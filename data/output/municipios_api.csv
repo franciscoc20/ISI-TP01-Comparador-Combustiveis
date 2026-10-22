@@ -1,0 +1,309 @@
+Distrito_API;Municipio_API;Codigo_INE
+Aveiro;Águeda;0101
+Aveiro;Albergaria-a-velha;0102
+Aveiro;Anadia;0103
+Aveiro;Arouca;0104
+Aveiro;Aveiro;0105
+Aveiro;Castelo de Paiva;0106
+Aveiro;Espinho;0107
+Aveiro;Estarreja;0108
+Aveiro;Ílhavo;0110
+Aveiro;Mealhada;0111
+Aveiro;Murtosa;0112
+Aveiro;Oliveira de Azeméis;0113
+Aveiro;Oliveira do Bairro;0114
+Aveiro;Ovar;0115
+Aveiro;Santa Maria da Feira;0109
+Aveiro;São João da Madeira;0116
+Aveiro;Sever do Vouga;0117
+Aveiro;Vagos;0118
+Aveiro;Vale de Cambra;0119
+Beja;Aljustrel;0201
+Beja;Almodôvar;0202
+Beja;Alvito;0203
+Beja;Barrancos;0204
+Beja;Beja;0205
+Beja;Castro Verde;0206
+Beja;Cuba;0207
+Beja;Ferreira do Alentejo;0208
+Beja;Mértola;0209
+Beja;Moura;0210
+Beja;Odemira;0211
+Beja;Ourique;0212
+Beja;Serpa;0213
+Beja;Vidigueira;0214
+Braga;Amares;0301
+Braga;Barcelos;0302
+Braga;Braga;0303
+Braga;Cabeceiras de Basto;0304
+Braga;Celorico de Basto;0305
+Braga;Esposende;0306
+Braga;Fafe;0307
+Braga;Guimarães;0308
+Braga;Póvoa de Lanhoso;0309
+Braga;Terras de Bouro;0310
+Braga;Vieira do Minho;0311
+Braga;Vila Nova de Famalicão;0312
+Braga;Vila Verde;0313
+Braga;Vizela;0314
+Bragança;Alfândega da fé;0401
+Bragança;Bragança;0402
+Bragança;Carrazeda de Ansiães;0403
+Bragança;Freixo de Espada à Cinta;0404
+Bragança;Macedo de Cavaleiros;0405
+Bragança;Miranda do Douro;0406
+Bragança;Mirandela;0407
+Bragança;Mogadouro;0408
+Bragança;Torre de Moncorvo;0409
+Bragança;Vila Flor;0410
+Bragança;Vimioso;0411
+Bragança;Vinhais;0412
+Castelo Branco;Belmonte;0501
+Castelo Branco;Castelo Branco;0502
+Castelo Branco;Covilhã;0503
+Castelo Branco;Fundão;0504
+Castelo Branco;Idanha-a-nova;0505
+Castelo Branco;Oleiros;0506
+Castelo Branco;Penamacor;0507
+Castelo Branco;Proença-a-nova;0508
+Castelo Branco;Sertã;0509
+Castelo Branco;Vila de Rei;0510
+Castelo Branco;Vila Velha de Ródão;0511
+Coimbra;Arganil;0601
+Coimbra;Cantanhede;0602
+Coimbra;Coimbra;0603
+Coimbra;Condeixa-a-nova;0604
+Coimbra;Figueira da Foz;0605
+Coimbra;Góis;0606
+Coimbra;Lousã;0607
+Coimbra;Mira;0608
+Coimbra;Miranda do Corvo;0609
+Coimbra;Montemor-o-velho;0610
+Coimbra;Oliveira do Hospital;0611
+Coimbra;Pampilhosa da Serra;0612
+Coimbra;Penacova;0613
+Coimbra;Penela;0614
+Coimbra;Soure;0615
+Coimbra;Tábua;0616
+Coimbra;Vila Nova de Poiares;0617
+Faro;Albufeira;0801
+Faro;Alcoutim;0802
+Faro;Aljezur;0803
+Faro;Castro Marim;0804
+Faro;Faro;0805
+Faro;Lagoa;0806
+Faro;Lagos;0807
+Faro;Loulé;0808
+Faro;Monchique;0809
+Faro;Olhão;0810
+Faro;Portimão;0811
+Faro;São Brás de Alportel;0812
+Faro;Silves;0813
+Faro;Tavira;0814
+Faro;Vila do Bispo;0815
+Faro;Vila Real de Santo António;0816
+Guarda;Aguiar da Beira;0901
+Guarda;Almeida;0902
+Guarda;Celorico da Beira;0903
+Guarda;Figueira de Castelo Rodrigo;0904
+Guarda;Fornos de Algodres;0905
+Guarda;Gouveia;0906
+Guarda;Guarda;0907
+Guarda;Manteigas;0908
+Guarda;Mêda;0909
+Guarda;Pinhel;0910
+Guarda;Sabugal;0911
+Guarda;Seia;0912
+Guarda;Trancoso;0913
+Guarda;Vila Nova de Foz Côa;0914
+Ilha Das Flores;Lajes Das Flores;4801
+Ilha Das Flores;Santa Cruz Das Flores;4802
+Ilha Terceira;Angra do Heroísmo;4301
+Ilha Terceira;Praia da Vitória;4302
+Ilha da Graciosa;Santa Cruz da Graciosa;4401
+Ilha da Madeira;Calheta;3101
+Ilha da Madeira;Câmara de Lobos;3102
+Ilha da Madeira;Funchal;3103
+Ilha da Madeira;Machico;3104
+Ilha da Madeira;Ponta do Sol;3105
+Ilha da Madeira;Porto Moniz;3106
+Ilha da Madeira;Ribeira Brava;3107
+Ilha da Madeira;Santa Cruz;3108
+Ilha da Madeira;Santana;3109
+Ilha da Madeira;São Vicente;3110
+Ilha de Porto Santo;Porto Santo;3201
+Ilha de Santa Maria;Vila do Porto;4101
+Ilha de São Jorge;Calheta de São Jorge;4501
+Ilha de São Jorge;Velas;4502
+Ilha de São Miguel;Lagoa (açores);4201
+Ilha de São Miguel;Nordeste;4202
+Ilha de São Miguel;Ponta Delgada;4203
+Ilha de São Miguel;Povoação;4204
+Ilha de São Miguel;Ribeira Grande;4205
+Ilha de São Miguel;Vila Franca do Campo;4206
+Ilha do Corvo;Corvo;4901
+Ilha do Faial;Horta;4701
+Ilha do Pico;Lajes do Pico;4601
+Ilha do Pico;Madalena;4602
+Ilha do Pico;São Roque do Pico;4603
+Leiria;Alcobaça;1001
+Leiria;Alvaiázere;1002
+Leiria;Ansião;1003
+Leiria;Batalha;1004
+Leiria;Bombarral;1005
+Leiria;Caldas da Rainha;1006
+Leiria;Castanheira de Pêra;1007
+Leiria;Figueiró Dos Vinhos;1008
+Leiria;Leiria;1009
+Leiria;Marinha Grande;1010
+Leiria;Nazaré;1011
+Leiria;Óbidos;1012
+Leiria;Pedrógão Grande;1013
+Leiria;Peniche;1014
+Leiria;Pombal;1015
+Leiria;Porto de Mós;1016
+Lisboa;Alenquer;1101
+Lisboa;Amadora;1115
+Lisboa;Arruda Dos Vinhos;1102
+Lisboa;Azambuja;1103
+Lisboa;Cadaval;1104
+Lisboa;Cascais;1105
+Lisboa;Lisboa;1106
+Lisboa;Loures;1107
+Lisboa;Lourinhã;1108
+Lisboa;Mafra;1109
+Lisboa;Odivelas;1116
+Lisboa;Oeiras;1110
+Lisboa;Sintra;1111
+Lisboa;Sobral de Monte Agraço;1112
+Lisboa;Torres Vedras;1113
+Lisboa;Vila Franca de Xira;1114
+Portalegre;Alter do Chão;1201
+Portalegre;Arronches;1202
+Portalegre;Avis;1203
+Portalegre;Campo Maior;1204
+Portalegre;Castelo de Vide;1205
+Portalegre;Crato;1206
+Portalegre;Elvas;1207
+Portalegre;Fronteira;1208
+Portalegre;Gavião;1209
+Portalegre;Marvão;1210
+Portalegre;Monforte;1211
+Portalegre;Nisa;1212
+Portalegre;Ponte de Sor;1213
+Portalegre;Portalegre;1214
+Portalegre;Sousel;1215
+Porto;Amarante;1301
+Porto;Baião;1302
+Porto;Felgueiras;1303
+Porto;Gondomar;1304
+Porto;Lousada;1305
+Porto;Maia;1306
+Porto;Marco de Canaveses;1307
+Porto;Matosinhos;1308
+Porto;Paços de Ferreira;1309
+Porto;Paredes;1310
+Porto;Penafiel;1311
+Porto;Porto;1312
+Porto;Póvoa de Varzim;1313
+Porto;Santo Tirso;1314
+Porto;Trofa;1318
+Porto;Valongo;1315
+Porto;Vila do Conde;1316
+Porto;Vila Nova de Gaia;1317
+Santarém;Abrantes;1401
+Santarém;Alcanena;1402
+Santarém;Almeirim;1403
+Santarém;Alpiarça;1404
+Santarém;Benavente;1405
+Santarém;Cartaxo;1406
+Santarém;Chamusca;1407
+Santarém;Constância;1408
+Santarém;Coruche;1409
+Santarém;Entroncamento;1410
+Santarém;Ferreira do Zêzere;1411
+Santarém;Golegã;1412
+Santarém;Mação;1413
+Santarém;Ourém;1421
+Santarém;Rio Maior;1414
+Santarém;Salvaterra de Magos;1415
+Santarém;Santarém;1416
+Santarém;Sardoal;1417
+Santarém;Tomar;1418
+Santarém;Torres Novas;1419
+Santarém;Vila Nova da Barquinha;1420
+Setúbal;Alcácer do Sal;1501
+Setúbal;Alcochete;1502
+Setúbal;Almada;1503
+Setúbal;Barreiro;1504
+Setúbal;Grândola;1505
+Setúbal;Moita;1506
+Setúbal;Montijo;1507
+Setúbal;Palmela;1508
+Setúbal;Santiago do Cacém;1509
+Setúbal;Seixal;1510
+Setúbal;Sesimbra;1511
+Setúbal;Setúbal;1512
+Setúbal;Sines;1513
+Viana do Castelo;Arcos de Valdevez;1601
+Viana do Castelo;Caminha;1602
+Viana do Castelo;Melgaço;1603
+Viana do Castelo;Monção;1604
+Viana do Castelo;Paredes de Coura;1605
+Viana do Castelo;Ponte da Barca;1606
+Viana do Castelo;Ponte de Lima;1607
+Viana do Castelo;Valença;1608
+Viana do Castelo;Viana do Castelo;1609
+Viana do Castelo;Vila Nova de Cerveira;1610
+Vila Real;Alijó;1701
+Vila Real;Boticas;1702
+Vila Real;Chaves;1703
+Vila Real;Mesão Frio;1704
+Vila Real;Mondim de Basto;1705
+Vila Real;Montalegre;1706
+Vila Real;Murça;1707
+Vila Real;Peso da Régua;1708
+Vila Real;Ribeira de Pena;1709
+Vila Real;Sabrosa;1710
+Vila Real;Santa Marta de Penaguião;1711
+Vila Real;Valpaços;1712
+Vila Real;Vila Pouca de Aguiar;1713
+Vila Real;Vila Real;1714
+Viseu;Armamar;1801
+Viseu;Carregal do Sal;1802
+Viseu;Castro Daire;1803
+Viseu;Cinfães;1804
+Viseu;Lamego;1805
+Viseu;Mangualde;1806
+Viseu;Moimenta da Beira;1807
+Viseu;Mortágua;1808
+Viseu;Nelas;1809
+Viseu;Oliveira de Frades;1810
+Viseu;Penalva do Castelo;1811
+Viseu;Penedono;1812
+Viseu;Resende;1813
+Viseu;Santa Comba Dão;1814
+Viseu;São João da Pesqueira;1815
+Viseu;São Pedro do Sul;1816
+Viseu;Sátão;1817
+Viseu;Sernancelhe;1818
+Viseu;Tabuaço;1819
+Viseu;Tarouca;1820
+Viseu;Tondela;1821
+Viseu;Vila Nova de Paiva;1822
+Viseu;Viseu;1823
+Viseu;Vouzela;1824
+Évora;Alandroal;0701
+Évora;Arraiolos;0702
+Évora;Borba;0703
+Évora;Estremoz;0704
+Évora;Évora;0705
+Évora;Montemor-o-novo;0706
+Évora;Mora;0707
+Évora;Mourão;0708
+Évora;Portel;0709
+Évora;Redondo;0710
+Évora;Reguengos de Monsaraz;0711
+Évora;Vendas Novas;0712
+Évora;Viana do Alentejo;0713
+Évora;Vila Viçosa;0714

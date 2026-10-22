@@ -1,0 +1,556 @@
+Distrito;Municipio;Combustivel;Codigo_INE;Preco_Medio;Preco_Minimo;Preco_Maximo;Numero_Registos
+Aveiro;Albergaria-a-Velha;Gasolina simples 95;0102;2,129;2,009;2,219;13
+Aveiro;Albergaria-a-Velha;Gasóleo simples;0102;2,183;2,099;2,259;10
+Aveiro;Anadia;Gasolina simples 95;0103;2,172;2,029;2,249;10
+Aveiro;Anadia;Gasóleo simples;0103;2,216;2,060;2,294;10
+Aveiro;Arouca;Gasolina simples 95;0104;2,159;1,999;2,249;9
+Aveiro;Arouca;Gasóleo simples;0104;2,208;2,089;2,294;8
+Aveiro;Aveiro;Gasolina simples 95;0105;2,151;2,069;2,182;24
+Aveiro;Aveiro;Gasóleo simples;0105;2,193;2,092;2,249;21
+Aveiro;Castelo de Paiva;Gasolina simples 95;0106;2,138;2,039;2,232;5
+Aveiro;Castelo de Paiva;Gasóleo simples;0106;2,187;2,099;2,269;5
+Aveiro;Espinho;Gasolina simples 95;0107;2,193;2,138;2,249;5
+Aveiro;Espinho;Gasóleo simples;0107;2,244;2,199;2,294;5
+Aveiro;Estarreja;Gasolina simples 95;0108;2,136;1,929;2,254;14
+Aveiro;Estarreja;Gasóleo simples;0108;2,174;2,049;2,299;9
+Aveiro;Mealhada;Gasolina simples 95;0111;2,182;1,997;2,229;11
+Aveiro;Mealhada;Gasóleo simples;0111;2,248;2,087;2,303;9
+Aveiro;Murtosa;Gasolina simples 95;0112;2,107;2,059;2,154;3
+Aveiro;Murtosa;Gasóleo simples;0112;2,134;2,099;2,169;2
+Aveiro;Oliveira de Azeméis;Gasolina simples 95;0113;2,135;1,999;2,229;27
+Aveiro;Oliveira de Azeméis;Gasóleo simples;0113;2,180;1,999;2,274;22
+Aveiro;Oliveira do Bairro;Gasolina simples 95;0114;2,145;2,038;2,249;13
+Aveiro;Oliveira do Bairro;Gasóleo simples;0114;2,168;1,999;2,289;13
+Aveiro;Ovar;Gasolina simples 95;0115;2,161;2,053;2,249;20
+Aveiro;Ovar;Gasóleo simples;0115;2,206;1,999;2,294;18
+Aveiro;Santa Maria da Feira;Gasolina simples 95;0109;2,144;2,017;2,249;42
+Aveiro;Santa Maria da Feira;Gasóleo simples;0109;2,181;1,999;2,294;37
+Aveiro;Sever do Vouga;Gasolina simples 95;0117;2,167;2,069;2,219;9
+Aveiro;Sever do Vouga;Gasóleo simples;0117;2,218;2,103;2,264;10
+Aveiro;São João da Madeira;Gasolina simples 95;0116;2,169;2,088;2,219;6
+Aveiro;São João da Madeira;Gasóleo simples;0116;2,211;2,109;2,264;6
+Aveiro;Vagos;Gasolina simples 95;0118;2,177;2,149;2,244;11
+Aveiro;Vagos;Gasóleo simples;0118;2,235;2,119;2,294;8
+Aveiro;Vale de Cambra;Gasolina simples 95;0119;2,139;2,039;2,219;4
+Aveiro;Vale de Cambra;Gasóleo simples;0119;2,174;2,084;2,264;2
+Aveiro;Águeda;Gasolina simples 95;0101;2,152;1,989;2,249;21
+Aveiro;Águeda;Gasóleo simples;0101;2,180;1,989;2,289;21
+Aveiro;Ílhavo;Gasolina simples 95;0110;2,067;1,979;2,179;9
+Aveiro;Ílhavo;Gasóleo simples;0110;2,086;1,999;2,244;5
+Beja;Aljustrel;Gasolina simples 95;0201;2,157;2,019;2,244;8
+Beja;Aljustrel;Gasóleo simples;0201;2,210;2,062;2,289;7
+Beja;Almodôvar;Gasolina simples 95;0202;2,237;2,212;2,250;3
+Beja;Almodôvar;Gasóleo simples;0202;2,284;2,275;2,294;2
+Beja;Alvito;Gasolina simples 95;0203;2,213;2,213;2,213;1
+Beja;Alvito;Gasóleo simples;0203;2,266;2,266;2,266;1
+Beja;Barrancos;Gasolina simples 95;0204;2,124;2,124;2,124;1
+Beja;Barrancos;Gasóleo simples;0204;2,219;2,219;2,219;1
+Beja;Beja;Gasolina simples 95;0205;2,178;2,020;2,249;13
+Beja;Beja;Gasóleo simples;0205;2,234;2,109;2,294;12
+Beja;Castro Verde;Gasolina simples 95;0206;2,188;2,119;2,244;6
+Beja;Castro Verde;Gasóleo simples;0206;2,218;2,169;2,269;6
+Beja;Cuba;Gasolina simples 95;0207;2,177;2,079;2,249;3
+Beja;Cuba;Gasóleo simples;0207;2,207;2,119;2,254;3
+Beja;Ferreira do Alentejo;Gasolina simples 95;0208;2,130;2,115;2,139;7
+Beja;Ferreira do Alentejo;Gasóleo simples;0208;2,159;2,109;2,169;6
+Beja;Moura;Gasolina simples 95;0210;2,191;2,143;2,239;7
+Beja;Moura;Gasóleo simples;0210;2,218;2,150;2,289;10
+Beja;Mértola;Gasolina simples 95;0209;2,226;2,212;2,239;2
+Beja;Mértola;Gasóleo simples;0209;2,274;2,259;2,289;2
+Beja;Odemira;Gasolina simples 95;0211;2,180;2,093;2,249;12
+Beja;Odemira;Gasóleo simples;0211;2,236;2,132;2,324;13
+Beja;Ourique;Gasolina simples 95;0212;2,190;2,119;2,249;3
+Beja;Ourique;Gasóleo simples;0212;2,231;2,149;2,294;3
+Beja;Serpa;Gasolina simples 95;0213;2,206;2,143;2,249;8
+Beja;Serpa;Gasóleo simples;0213;2,268;2,183;2,304;7
+Beja;Vidigueira;Gasolina simples 95;0214;2,134;2,129;2,138;2
+Beja;Vidigueira;Gasóleo simples;0214;2,169;2,149;2,189;3
+Braga;Amares;Gasolina simples 95;0301;2,139;2,045;2,188;6
+Braga;Amares;Gasóleo simples;0301;2,185;2,095;2,239;5
+Braga;Barcelos;Gasolina simples 95;0302;2,150;2,020;2,239;43
+Braga;Barcelos;Gasóleo simples;0302;2,201;1,999;2,299;38
+Braga;Braga;Gasolina simples 95;0303;2,148;1,999;2,249;47
+Braga;Braga;Gasóleo simples;0303;2,197;1,999;2,294;50
+Braga;Cabeceiras de Basto;Gasolina simples 95;0304;2,200;2,129;2,249;7
+Braga;Cabeceiras de Basto;Gasóleo simples;0304;2,225;2,098;2,294;7
+Braga;Celorico de Basto;Gasolina simples 95;0305;2,181;2,044;2,249;7
+Braga;Celorico de Basto;Gasóleo simples;0305;2,243;2,167;2,289;6
+Braga;Esposende;Gasolina simples 95;0306;2,171;2,053;2,249;12
+Braga;Esposende;Gasóleo simples;0306;2,219;1,999;2,294;12
+Braga;Fafe;Gasolina simples 95;0307;2,155;2,058;2,209;11
+Braga;Fafe;Gasóleo simples;0307;2,200;2,092;2,254;11
+Braga;Guimarães;Gasolina simples 95;0308;2,141;1,999;2,294;42
+Braga;Guimarães;Gasóleo simples;0308;2,189;2,039;2,254;38
+Braga;Póvoa de Lanhoso;Gasolina simples 95;0309;2,166;2,058;2,192;11
+Braga;Póvoa de Lanhoso;Gasóleo simples;0309;2,213;2,108;2,259;11
+Braga;Terras de Bouro;Gasolina simples 95;0310;2,202;2,202;2,202;1
+Braga;Terras de Bouro;Gasóleo simples;0310;2,249;2,249;2,249;1
+Braga;Vieira do Minho;Gasolina simples 95;0311;2,178;2,099;2,249;6
+Braga;Vieira do Minho;Gasóleo simples;0311;2,268;2,237;2,294;4
+Braga;Vila Nova de Famalicão;Gasolina simples 95;0312;2,139;1,987;2,219;46
+Braga;Vila Nova de Famalicão;Gasóleo simples;0312;2,192;2,079;2,264;42
+Braga;Vila Verde;Gasolina simples 95;0313;2,136;2,045;2,209;17
+Braga;Vila Verde;Gasóleo simples;0313;2,172;2,092;2,249;14
+Braga;Vizela;Gasolina simples 95;0314;2,154;2,029;2,209;8
+Braga;Vizela;Gasóleo simples;0314;2,200;2,059;2,254;7
+Bragança;Alfândega da Fé;Gasolina simples 95;0401;2,170;2,144;2,212;3
+Bragança;Alfândega da Fé;Gasóleo simples;0401;2,214;2,193;2,249;3
+Bragança;Bragança;Gasolina simples 95;0402;2,207;2,138;2,249;10
+Bragança;Bragança;Gasóleo simples;0402;2,258;2,189;2,329;12
+Bragança;Carrazeda de Ansiães;Gasolina simples 95;0403;2,185;2,143;2,213;4
+Bragança;Carrazeda de Ansiães;Gasóleo simples;0403;2,196;2,155;2,253;4
+Bragança;Freixo de Espada à Cinta;Gasolina simples 95;0404;2,178;2,144;2,213;2
+Bragança;Freixo de Espada à Cinta;Gasóleo simples;0404;2,199;2,199;2,199;1
+Bragança;Macedo de Cavaleiros;Gasolina simples 95;0405;2,173;1,999;2,232;8
+Bragança;Macedo de Cavaleiros;Gasóleo simples;0405;2,224;2,079;2,269;7
+Bragança;Miranda do Douro;Gasolina simples 95;0406;2,169;2,019;2,249;7
+Bragança;Miranda do Douro;Gasóleo simples;0406;2,246;2,209;2,289;5
+Bragança;Mirandela;Gasolina simples 95;0407;2,169;2,049;2,259;13
+Bragança;Mirandela;Gasóleo simples;0407;2,211;2,079;2,304;13
+Bragança;Mogadouro;Gasolina simples 95;0408;2,188;2,144;2,213;6
+Bragança;Mogadouro;Gasóleo simples;0408;2,229;2,196;2,253;8
+Bragança;Torre de Moncorvo;Gasolina simples 95;0409;2,178;2,039;2,249;6
+Bragança;Torre de Moncorvo;Gasóleo simples;0409;2,236;2,089;2,329;6
+Bragança;Vila Flor;Gasolina simples 95;0410;2,190;2,049;2,249;4
+Bragança;Vila Flor;Gasóleo simples;0410;2,250;2,079;2,329;4
+Bragança;Vimioso;Gasolina simples 95;0411;2,221;2,209;2,249;4
+Bragança;Vimioso;Gasóleo simples;0411;2,258;2,249;2,279;4
+Bragança;Vinhais;Gasolina simples 95;0412;2,188;2,150;2,213;4
+Bragança;Vinhais;Gasóleo simples;0412;2,236;2,200;2,253;5
+Castelo Branco;Belmonte;Gasolina simples 95;0501;2,134;1,959;2,187;6
+Castelo Branco;Belmonte;Gasóleo simples;0501;2,183;2,029;2,224;5
+Castelo Branco;Castelo Branco;Gasolina simples 95;0502;2,140;1,999;2,242;19
+Castelo Branco;Castelo Branco;Gasóleo simples;0502;2,182;2,039;2,269;18
+Castelo Branco;Covilhã;Gasolina simples 95;0503;2,150;1,999;2,282;14
+Castelo Branco;Covilhã;Gasóleo simples;0503;2,189;2,039;2,276;12
+Castelo Branco;Fundão;Gasolina simples 95;0504;2,170;2,004;2,234;13
+Castelo Branco;Fundão;Gasóleo simples;0504;2,216;2,044;2,269;14
+Castelo Branco;Idanha-a-Nova;Gasolina simples 95;0505;2,186;2,039;2,268;7
+Castelo Branco;Idanha-a-Nova;Gasóleo simples;0505;2,216;2,079;2,303;6
+Castelo Branco;Oleiros;Gasolina simples 95;0506;2,223;2,194;2,273;4
+Castelo Branco;Oleiros;Gasóleo simples;0506;2,252;2,250;2,253;3
+Castelo Branco;Penamacor;Gasolina simples 95;0507;2,149;2,120;2,164;3
+Castelo Branco;Penamacor;Gasóleo simples;0507;2,189;2,160;2,209;3
+Castelo Branco;Proença-a-Nova;Gasolina simples 95;0508;2,180;2,019;2,370;6
+Castelo Branco;Proença-a-Nova;Gasóleo simples;0508;2,211;2,069;2,345;6
+Castelo Branco;Sertã;Gasolina simples 95;0509;2,157;2,009;2,202;9
+Castelo Branco;Sertã;Gasóleo simples;0509;2,205;2,059;2,249;8
+Castelo Branco;Vila de Rei;Gasolina simples 95;0510;2,212;2,212;2,212;1
+Castelo Branco;Vila de Rei;Gasóleo simples;0510;2,259;2,259;2,259;1
+Castelo Branco;Vila Velha de Ródão;Gasolina simples 95;0511;2,202;2,169;2,219;4
+Castelo Branco;Vila Velha de Ródão;Gasóleo simples;0511;2,247;2,214;2,269;4
+Coimbra;Arganil;Gasolina simples 95;0601;2,149;2,049;2,232;5
+Coimbra;Arganil;Gasóleo simples;0601;2,195;2,089;2,269;5
+Coimbra;Cantanhede;Gasolina simples 95;0602;2,168;2,048;2,269;22
+Coimbra;Cantanhede;Gasóleo simples;0602;2,214;2,088;2,299;19
+Coimbra;Coimbra;Gasolina simples 95;0603;2,170;1,997;2,229;28
+Coimbra;Coimbra;Gasóleo simples;0603;2,219;2,087;2,274;26
+Coimbra;Condeixa-a-Nova;Gasolina simples 95;0604;2,137;1,997;2,219;5
+Coimbra;Condeixa-a-Nova;Gasóleo simples;0604;2,171;2,087;2,264;5
+Coimbra;Figueira da Foz;Gasolina simples 95;0605;2,176;2,048;2,244;26
+Coimbra;Figueira da Foz;Gasóleo simples;0605;2,217;2,068;2,294;25
+Coimbra;Góis;Gasolina simples 95;0606;2,220;2,183;2,232;4
+Coimbra;Góis;Gasóleo simples;0606;2,258;2,223;2,269;4
+Coimbra;Lousã;Gasolina simples 95;0607;2,154;1,997;2,214;4
+Coimbra;Lousã;Gasóleo simples;0607;2,211;2,087;2,259;4
+Coimbra;Mira;Gasolina simples 95;0608;2,131;2,048;2,167;7
+Coimbra;Mira;Gasóleo simples;0608;2,178;2,088;2,214;7
+Coimbra;Miranda do Corvo;Gasolina simples 95;0609;2,143;1,997;2,212;5
+Coimbra;Miranda do Corvo;Gasóleo simples;0609;2,189;2,087;2,249;5
+Coimbra;Montemor-o-Velho;Gasolina simples 95;0610;2,143;2,035;2,202;11
+Coimbra;Montemor-o-Velho;Gasóleo simples;0610;2,192;2,065;2,249;10
+Coimbra;Oliveira do Hospital;Gasolina simples 95;0611;2,193;2,119;2,224;9
+Coimbra;Oliveira do Hospital;Gasóleo simples;0611;2,260;2,208;2,329;8
+Coimbra;Pampilhosa da Serra;Gasolina simples 95;0612;2,200;2,174;2,213;3
+Coimbra;Pampilhosa da Serra;Gasóleo simples;0612;2,240;2,214;2,253;3
+Coimbra;Penacova;Gasolina simples 95;0613;2,185;2,130;2,232;7
+Coimbra;Penacova;Gasóleo simples;0613;2,230;2,175;2,269;7
+Coimbra;Penela;Gasolina simples 95;0614;2,136;2,089;2,202;3
+Coimbra;Penela;Gasóleo simples;0614;2,169;2,169;2,169;2
+Coimbra;Soure;Gasolina simples 95;0615;2,133;1,997;2,232;5
+Coimbra;Soure;Gasóleo simples;0615;2,196;2,087;2,269;4
+Coimbra;Tábua;Gasolina simples 95;0616;2,158;2,049;2,203;6
+Coimbra;Tábua;Gasóleo simples;0616;2,203;2,099;2,243;6
+Coimbra;Vila Nova de Poiares;Gasolina simples 95;0617;2,201;2,201;2,202;3
+Coimbra;Vila Nova de Poiares;Gasóleo simples;0617;2,248;2,248;2,249;3
+Faro;Albufeira;Gasolina simples 95;0801;2,174;2,069;2,249;19
+Faro;Albufeira;Gasóleo simples;0801;2,220;2,099;2,294;18
+Faro;Alcoutim;Gasolina simples 95;0802;2,211;2,178;2,244;2
+Faro;Alcoutim;Gasóleo simples;0802;2,254;2,218;2,289;2
+Faro;Aljezur;Gasolina simples 95;0803;2,183;2,149;2,224;4
+Faro;Aljezur;Gasóleo simples;0803;2,222;2,198;2,249;4
+Faro;Castro Marim;Gasolina simples 95;0804;2,180;2,159;2,202;2
+Faro;Castro Marim;Gasóleo simples;0804;2,214;2,214;2,214;1
+Faro;Faro;Gasolina simples 95;0805;2,162;2,019;2,229;21
+Faro;Faro;Gasóleo simples;0805;2,220;2,099;2,284;18
+Faro;Lagoa;Gasolina simples 95;0806;2,166;2,093;2,234;11
+Faro;Lagoa;Gasóleo simples;0806;2,223;2,139;2,269;9
+Faro;Lagos;Gasolina simples 95;0807;2,173;1,998;2,239;13
+Faro;Lagos;Gasóleo simples;0807;2,231;2,068;2,269;12
+Faro;Loulé;Gasolina simples 95;0808;2,215;2,113;2,249;25
+Faro;Loulé;Gasóleo simples;0808;2,262;2,189;2,294;23
+Faro;Monchique;Gasolina simples 95;0809;2,150;2,059;2,194;4
+Faro;Monchique;Gasóleo simples;0809;2,189;2,109;2,269;4
+Faro;Olhão;Gasolina simples 95;0810;2,141;1,939;2,213;12
+Faro;Olhão;Gasóleo simples;0810;2,197;2,059;2,269;11
+Faro;Portimão;Gasolina simples 95;0811;2,167;1,998;2,239;16
+Faro;Portimão;Gasóleo simples;0811;2,218;2,058;2,277;16
+Faro;Silves;Gasolina simples 95;0813;2,174;2,069;2,249;24
+Faro;Silves;Gasóleo simples;0813;2,228;2,099;2,314;24
+Faro;São Brás de Alportel;Gasolina simples 95;0812;2,144;2,019;2,194;4
+Faro;São Brás de Alportel;Gasóleo simples;0812;2,199;2,119;2,249;3
+Faro;Tavira;Gasolina simples 95;0814;2,171;2,099;2,229;12
+Faro;Tavira;Gasóleo simples;0814;2,216;2,154;2,260;10
+Faro;Vila do Bispo;Gasolina simples 95;0815;2,121;2,028;2,232;6
+Faro;Vila do Bispo;Gasóleo simples;0815;2,200;2,118;2,269;6
+Faro;Vila Real de Santo António;Gasolina simples 95;0816;2,193;1,999;2,229;9
+Faro;Vila Real de Santo António;Gasóleo simples;0816;2,203;2,019;2,269;9
+Guarda;Aguiar da Beira;Gasolina simples 95;0901;2,190;2,114;2,249;6
+Guarda;Aguiar da Beira;Gasóleo simples;0901;2,232;2,159;2,294;6
+Guarda;Almeida;Gasolina simples 95;0902;2,154;1,929;2,249;9
+Guarda;Almeida;Gasóleo simples;0902;2,190;1,939;2,294;8
+Guarda;Celorico da Beira;Gasolina simples 95;0903;2,162;2,059;2,192;8
+Guarda;Celorico da Beira;Gasóleo simples;0903;2,213;2,099;2,249;8
+Guarda;Figueira de Castelo Rodrigo;Gasolina simples 95;0904;2,139;2,059;2,213;4
+Guarda;Figueira de Castelo Rodrigo;Gasóleo simples;0904;2,194;2,099;2,253;4
+Guarda;Fornos de Algodres;Gasolina simples 95;0905;2,157;2,118;2,177;3
+Guarda;Fornos de Algodres;Gasóleo simples;0905;2,206;2,189;2,224;2
+Guarda;Gouveia;Gasolina simples 95;0906;2,173;2,039;2,229;7
+Guarda;Gouveia;Gasóleo simples;0906;2,206;2,029;2,269;7
+Guarda;Guarda;Gasolina simples 95;0907;2,162;2,029;2,249;23
+Guarda;Guarda;Gasóleo simples;0907;2,203;2,045;2,289;22
+Guarda;Manteigas;Gasolina simples 95;0908;2,232;2,232;2,232;2
+Guarda;Manteigas;Gasóleo simples;0908;2,269;2,269;2,269;2
+Guarda;Meda;Gasolina simples 95;0909;2,164;2,059;2,232;3
+Guarda;Meda;Gasóleo simples;0909;2,218;2,099;2,286;3
+Guarda;Pinhel;Gasolina simples 95;0910;2,162;2,099;2,202;5
+Guarda;Pinhel;Gasóleo simples;0910;2,195;2,159;2,249;5
+Guarda;Sabugal;Gasolina simples 95;0911;2,177;2,139;2,213;7
+Guarda;Sabugal;Gasóleo simples;0911;2,220;2,204;2,253;7
+Guarda;Seia;Gasolina simples 95;0912;2,200;2,139;2,232;9
+Guarda;Seia;Gasóleo simples;0912;2,244;2,169;2,274;9
+Guarda;Trancoso;Gasolina simples 95;0913;2,165;2,059;2,224;6
+Guarda;Trancoso;Gasóleo simples;0913;2,218;2,099;2,269;6
+Guarda;Vila Nova de Foz Côa;Gasolina simples 95;0914;2,178;2,099;2,249;6
+Guarda;Vila Nova de Foz Côa;Gasóleo simples;0914;2,214;2,089;2,279;5
+Leiria;Alcobaça;Gasolina simples 95;1001;2,144;1,929;2,249;31
+Leiria;Alcobaça;Gasóleo simples;1001;2,179;1,999;2,304;30
+Leiria;Alvaiázere;Gasolina simples 95;1002;2,150;2,099;2,199;7
+Leiria;Alvaiázere;Gasóleo simples;1002;2,210;2,189;2,244;4
+Leiria;Ansião;Gasolina simples 95;1003;2,157;1,997;2,249;10
+Leiria;Ansião;Gasóleo simples;1003;2,201;2,067;2,294;10
+Leiria;Batalha;Gasolina simples 95;1004;2,178;2,053;2,224;8
+Leiria;Batalha;Gasóleo simples;1004;2,212;1,999;2,269;8
+Leiria;Bombarral;Gasolina simples 95;1005;2,153;2,079;2,224;5
+Leiria;Bombarral;Gasóleo simples;1005;2,182;2,099;2,269;5
+Leiria;Caldas da Rainha;Gasolina simples 95;1006;2,155;2,045;2,233;19
+Leiria;Caldas da Rainha;Gasóleo simples;1006;2,189;1,999;2,286;16
+Leiria;Castanheira de Pêra;Gasolina simples 95;1007;2,206;2,206;2,207;2
+Leiria;Castanheira de Pêra;Gasóleo simples;1007;2,254;2,253;2,254;2
+Leiria;Figueiró dos Vinhos;Gasolina simples 95;1008;2,088;2,009;2,146;4
+Leiria;Figueiró dos Vinhos;Gasóleo simples;1008;2,128;2,059;2,199;4
+Leiria;Leiria;Gasolina simples 95;1009;2,164;1,976;2,269;57
+Leiria;Leiria;Gasóleo simples;1009;2,215;1,999;2,299;53
+Leiria;Marinha Grande;Gasolina simples 95;1010;2,144;1,929;2,229;15
+Leiria;Marinha Grande;Gasóleo simples;1010;2,193;2,009;2,274;14
+Leiria;Nazaré;Gasolina simples 95;1011;2,188;2,169;2,224;3
+Leiria;Nazaré;Gasóleo simples;1011;2,236;2,219;2,269;3
+Leiria;Pedrógão Grande;Gasolina simples 95;1013;2,196;2,189;2,212;5
+Leiria;Pedrógão Grande;Gasóleo simples;1013;2,240;2,234;2,249;5
+Leiria;Peniche;Gasolina simples 95;1014;2,158;2,093;2,209;7
+Leiria;Peniche;Gasóleo simples;1014;2,218;2,149;2,254;6
+Leiria;Pombal;Gasolina simples 95;1015;2,166;1,997;2,269;34
+Leiria;Pombal;Gasóleo simples;1015;2,199;2,063;2,299;29
+Leiria;Porto de Mós;Gasolina simples 95;1016;2,133;2,038;2,249;18
+Leiria;Porto de Mós;Gasóleo simples;1016;2,173;1,999;2,294;14
+Leiria;Óbidos;Gasolina simples 95;1012;2,165;2,045;2,213;6
+Leiria;Óbidos;Gasóleo simples;1012;2,212;2,128;2,244;5
+Lisboa;Alenquer;Gasolina simples 95;1101;2,163;2,049;2,249;15
+Lisboa;Alenquer;Gasóleo simples;1101;2,211;2,079;2,294;13
+Lisboa;Amadora;Gasolina simples 95;1115;2,192;2,059;2,249;15
+Lisboa;Amadora;Gasóleo simples;1115;2,243;2,099;2,294;12
+Lisboa;Arruda dos Vinhos;Gasolina simples 95;1102;2,165;2,053;2,249;5
+Lisboa;Arruda dos Vinhos;Gasóleo simples;1102;2,164;1,999;2,289;5
+Lisboa;Azambuja;Gasolina simples 95;1103;2,186;2,039;2,269;14
+Lisboa;Azambuja;Gasóleo simples;1103;2,223;2,099;2,299;16
+Lisboa;Cadaval;Gasolina simples 95;1104;2,116;1,939;2,219;6
+Lisboa;Cadaval;Gasóleo simples;1104;2,175;2,029;2,264;6
+Lisboa;Cascais;Gasolina simples 95;1105;2,185;2,068;2,308;41
+Lisboa;Cascais;Gasóleo simples;1105;2,241;2,099;2,359;36
+Lisboa;Lisboa;Gasolina simples 95;1106;2,214;2,118;2,259;65
+Lisboa;Lisboa;Gasóleo simples;1106;2,262;2,072;2,299;59
+Lisboa;Loures;Gasolina simples 95;1107;2,167;1,999;2,249;39
+Lisboa;Loures;Gasóleo simples;1107;2,216;2,069;2,304;37
+Lisboa;Lourinhã;Gasolina simples 95;1108;2,154;2,099;2,209;11
+Lisboa;Lourinhã;Gasóleo simples;1108;2,190;2,129;2,254;10
+Lisboa;Mafra;Gasolina simples 95;1109;2,153;2,019;2,249;19
+Lisboa;Mafra;Gasóleo simples;1109;2,208;2,079;2,294;18
+Lisboa;Odivelas;Gasolina simples 95;1116;2,176;2,049;2,249;16
+Lisboa;Odivelas;Gasóleo simples;1116;2,231;2,079;2,294;14
+Lisboa;Oeiras;Gasolina simples 95;1110;2,200;2,049;2,259;25
+Lisboa;Oeiras;Gasóleo simples;1110;2,249;2,099;2,304;24
+Lisboa;Sintra;Gasolina simples 95;1111;2,176;2,019;2,249;53
+Lisboa;Sintra;Gasóleo simples;1111;2,227;2,079;2,294;48
+Lisboa;Sobral de Monte Agraço;Gasolina simples 95;1112;2,136;2,069;2,202;4
+Lisboa;Sobral de Monte Agraço;Gasóleo simples;1112;2,182;2,089;2,249;4
+Lisboa;Torres Vedras;Gasolina simples 95;1113;2,162;2,069;2,249;32
+Lisboa;Torres Vedras;Gasóleo simples;1113;2,204;2,095;2,304;31
+Lisboa;Vila Franca de Xira;Gasolina simples 95;1114;2,166;1,989;2,224;24
+Lisboa;Vila Franca de Xira;Gasóleo simples;1114;2,214;2,059;2,269;20
+Portalegre;Alter do Chão;Gasolina simples 95;1201;2,110;2,049;2,172;2
+Portalegre;Alter do Chão;Gasóleo simples;1201;2,164;2,119;2,209;2
+Portalegre;Arronches;Gasolina simples 95;1202;2,212;2,212;2,212;1
+Portalegre;Arronches;Gasóleo simples;1202;2,259;2,259;2,259;1
+Portalegre;Avis;Gasolina simples 95;1203;2,130;2,094;2,159;3
+Portalegre;Avis;Gasóleo simples;1203;2,207;2,184;2,249;3
+Portalegre;Campo Maior;Gasolina simples 95;1204;2,202;2,202;2,202;1
+Portalegre;Campo Maior;Gasóleo simples;1204;2,249;2,249;2,249;1
+Portalegre;Castelo de Vide;Gasolina simples 95;1205;2,202;2,202;2,202;1
+Portalegre;Castelo de Vide;Gasóleo simples;1205;2,256;2,256;2,256;1
+Portalegre;Crato;Gasolina simples 95;1206;2,196;2,189;2,202;2
+Portalegre;Crato;Gasóleo simples;1206;2,262;2,234;2,304;3
+Portalegre;Elvas;Gasolina simples 95;1207;2,151;2,119;2,169;7
+Portalegre;Elvas;Gasóleo simples;1207;2,190;2,109;2,214;5
+Portalegre;Fronteira;Gasolina simples 95;1208;2,168;2,143;2,198;3
+Portalegre;Fronteira;Gasóleo simples;1208;2,201;2,193;2,209;2
+Portalegre;Gavião;Gasolina simples 95;1209;2,202;2,202;2,202;1
+Portalegre;Gavião;Gasóleo simples;1209;2,249;2,249;2,249;1
+Portalegre;Marvão;Gasolina simples 95;1210;2,159;2,159;2,159;1
+Portalegre;Marvão;Gasóleo simples;1210;2,304;2,304;2,304;1
+Portalegre;Monforte;Gasolina simples 95;1211;2,148;2,143;2,154;2
+Portalegre;Monforte;Gasóleo simples;1211;2,193;2,193;2,193;1
+Portalegre;Nisa;Gasolina simples 95;1212;2,182;2,152;2,212;2
+Portalegre;Nisa;Gasóleo simples;1212;2,247;2,198;2,296;2
+Portalegre;Ponte de Sor;Gasolina simples 95;1213;2,185;2,090;2,244;10
+Portalegre;Ponte de Sor;Gasóleo simples;1213;2,220;2,089;2,289;10
+Portalegre;Portalegre;Gasolina simples 95;1214;2,165;2,099;2,219;10
+Portalegre;Portalegre;Gasóleo simples;1214;2,227;2,149;2,269;9
+Portalegre;Sousel;Gasolina simples 95;1215;2,204;2,163;2,239;5
+Portalegre;Sousel;Gasóleo simples;1215;2,241;2,193;2,263;5
+Porto;Amarante;Gasolina simples 95;1301;2,163;2,034;2,249;17
+Porto;Amarante;Gasóleo simples;1301;2,198;1,999;2,294;16
+Porto;Baião;Gasolina simples 95;1302;2,177;2,063;2,224;4
+Porto;Baião;Gasóleo simples;1302;2,207;2,103;2,269;3
+Porto;Felgueiras;Gasolina simples 95;1303;2,139;2,034;2,199;19
+Porto;Felgueiras;Gasóleo simples;1303;2,183;2,074;2,244;17
+Porto;Gondomar;Gasolina simples 95;1304;2,168;1,999;2,249;25
+Porto;Gondomar;Gasóleo simples;1304;2,225;2,124;2,304;20
+Porto;Lousada;Gasolina simples 95;1305;2,149;2,017;2,199;16
+Porto;Lousada;Gasóleo simples;1305;2,192;2,069;2,244;15
+Porto;Maia;Gasolina simples 95;1306;2,166;2,039;2,249;36
+Porto;Maia;Gasóleo simples;1306;2,223;2,088;2,303;31
+Porto;Marco de Canaveses;Gasolina simples 95;1307;2,176;2,034;2,249;17
+Porto;Marco de Canaveses;Gasóleo simples;1307;2,227;2,034;2,329;16
+Porto;Matosinhos;Gasolina simples 95;1308;2,185;2,019;2,249;40
+Porto;Matosinhos;Gasóleo simples;1308;2,239;2,089;2,294;37
+Porto;Paredes;Gasolina simples 95;1310;2,153;2,053;2,249;29
+Porto;Paredes;Gasóleo simples;1310;2,187;1,999;2,289;27
+Porto;Paços de Ferreira;Gasolina simples 95;1309;2,154;2,029;2,209;21
+Porto;Paços de Ferreira;Gasóleo simples;1309;2,200;2,119;2,254;21
+Porto;Penafiel;Gasolina simples 95;1311;2,164;2,033;2,254;24
+Porto;Penafiel;Gasóleo simples;1311;2,208;1,999;2,294;22
+Porto;Porto;Gasolina simples 95;1312;2,174;1,999;2,249;38
+Porto;Porto;Gasóleo simples;1312;2,223;2,091;2,294;33
+Porto;Póvoa de Varzim;Gasolina simples 95;1313;2,178;2,009;2,229;17
+Porto;Póvoa de Varzim;Gasóleo simples;1313;2,221;2,069;2,277;17
+Porto;Santo Tirso;Gasolina simples 95;1314;2,139;2,019;2,219;20
+Porto;Santo Tirso;Gasóleo simples;1314;2,184;2,079;2,254;18
+Porto;Trofa;Gasolina simples 95;1318;2,153;2,019;2,209;17
+Porto;Trofa;Gasóleo simples;1318;2,211;2,089;2,294;15
+Porto;Valongo;Gasolina simples 95;1315;2,159;2,039;2,249;27
+Porto;Valongo;Gasóleo simples;1315;2,208;2,089;2,289;24
+Porto;Vila do Conde;Gasolina simples 95;1316;2,165;2,039;2,229;23
+Porto;Vila do Conde;Gasóleo simples;1316;2,201;2,069;2,279;21
+Porto;Vila Nova de Gaia;Gasolina simples 95;1317;2,155;1,989;2,254;69
+Porto;Vila Nova de Gaia;Gasóleo simples;1317;2,199;1,999;2,299;57
+Santarém;Abrantes;Gasolina simples 95;1401;2,152;1,919;2,234;16
+Santarém;Abrantes;Gasóleo simples;1401;2,193;2,015;2,269;16
+Santarém;Alcanena;Gasolina simples 95;1402;2,109;2,049;2,172;5
+Santarém;Alcanena;Gasóleo simples;1402;2,112;2,098;2,129;3
+Santarém;Almeirim;Gasolina simples 95;1403;2,131;2,046;2,204;12
+Santarém;Almeirim;Gasóleo simples;1403;2,170;1,999;2,269;13
+Santarém;Alpiarça;Gasolina simples 95;1404;2,146;2,035;2,249;5
+Santarém;Alpiarça;Gasóleo simples;1404;2,170;2,085;2,254;5
+Santarém;Benavente;Gasolina simples 95;1405;2,173;2,079;2,219;17
+Santarém;Benavente;Gasóleo simples;1405;2,216;2,098;2,266;12
+Santarém;Cartaxo;Gasolina simples 95;1406;2,159;2,035;2,320;13
+Santarém;Cartaxo;Gasóleo simples;1406;2,195;1,999;2,295;12
+Santarém;Chamusca;Gasolina simples 95;1407;2,133;2,085;2,206;7
+Santarém;Chamusca;Gasóleo simples;1407;2,162;2,085;2,253;7
+Santarém;Constância;Gasolina simples 95;1408;2,194;2,173;2,214;2
+Santarém;Constância;Gasóleo simples;1408;2,206;2,199;2,213;2
+Santarém;Coruche;Gasolina simples 95;1409;2,174;2,053;2,249;11
+Santarém;Coruche;Gasóleo simples;1409;2,194;1,999;2,294;10
+Santarém;Entroncamento;Gasolina simples 95;1410;2,165;2,089;2,209;4
+Santarém;Entroncamento;Gasóleo simples;1410;2,200;2,093;2,254;3
+Santarém;Ferreira do Zêzere;Gasolina simples 95;1411;2,132;2,049;2,202;5
+Santarém;Ferreira do Zêzere;Gasóleo simples;1411;2,173;2,099;2,249;5
+Santarém;Golegã;Gasolina simples 95;1412;2,089;2,079;2,099;2
+Santarém;Golegã;Gasóleo simples;1412;2,111;2,089;2,133;2
+Santarém;Mação;Gasolina simples 95;1413;2,197;2,178;2,213;4
+Santarém;Mação;Gasóleo simples;1413;2,219;2,195;2,253;3
+Santarém;Ourém;Gasolina simples 95;1421;2,162;1,999;2,324;30
+Santarém;Ourém;Gasóleo simples;1421;2,192;1,979;2,294;31
+Santarém;Rio Maior;Gasolina simples 95;1414;2,158;2,029;2,249;16
+Santarém;Rio Maior;Gasóleo simples;1414;2,210;2,090;2,304;14
+Santarém;Salvaterra de Magos;Gasolina simples 95;1415;2,183;2,099;2,254;13
+Santarém;Salvaterra de Magos;Gasóleo simples;1415;2,219;2,119;2,324;11
+Santarém;Santarém;Gasolina simples 95;1416;2,163;2,004;2,269;32
+Santarém;Santarém;Gasóleo simples;1416;2,206;2,079;2,299;28
+Santarém;Sardoal;Gasolina simples 95;1417;2,172;2,172;2,172;1
+Santarém;Sardoal;Gasóleo simples;1417;2,219;2,219;2,219;1
+Santarém;Tomar;Gasolina simples 95;1418;2,172;2,053;2,232;13
+Santarém;Tomar;Gasóleo simples;1418;2,217;1,999;2,305;14
+Santarém;Torres Novas;Gasolina simples 95;1419;2,163;2,079;2,232;11
+Santarém;Torres Novas;Gasóleo simples;1419;2,211;2,092;2,305;10
+Santarém;Vila Nova da Barquinha;Gasolina simples 95;1420;2,134;2,088;2,179;2
+Santarém;Vila Nova da Barquinha;Gasóleo simples;1420;2,159;2,094;2,224;2
+Setúbal;Alcochete;Gasolina simples 95;1502;2,168;2,029;2,229;8
+Setúbal;Alcochete;Gasóleo simples;1502;2,219;2,083;2,279;8
+Setúbal;Alcácer do Sal;Gasolina simples 95;1501;2,205;2,099;2,244;8
+Setúbal;Alcácer do Sal;Gasóleo simples;1501;2,236;2,139;2,259;8
+Setúbal;Almada;Gasolina simples 95;1503;2,177;2,059;2,249;17
+Setúbal;Almada;Gasóleo simples;1503;2,225;2,109;2,294;17
+Setúbal;Barreiro;Gasolina simples 95;1504;2,153;2,098;2,199;15
+Setúbal;Barreiro;Gasóleo simples;1504;2,180;2,059;2,244;13
+Setúbal;Grândola;Gasolina simples 95;1505;2,209;2,099;2,249;12
+Setúbal;Grândola;Gasóleo simples;1505;2,260;2,244;2,294;9
+Setúbal;Moita;Gasolina simples 95;1506;2,123;2,039;2,189;11
+Setúbal;Moita;Gasóleo simples;1506;2,178;2,089;2,239;10
+Setúbal;Montijo;Gasolina simples 95;1507;2,160;2,039;2,254;20
+Setúbal;Montijo;Gasóleo simples;1507;2,208;2,069;2,324;19
+Setúbal;Palmela;Gasolina simples 95;1508;2,172;2,028;2,244;26
+Setúbal;Palmela;Gasóleo simples;1508;2,219;2,079;2,320;25
+Setúbal;Santiago do Cacém;Gasolina simples 95;1509;2,180;2,049;2,249;14
+Setúbal;Santiago do Cacém;Gasóleo simples;1509;2,237;2,094;2,294;13
+Setúbal;Seixal;Gasolina simples 95;1510;2,167;2,059;2,249;26
+Setúbal;Seixal;Gasóleo simples;1510;2,212;2,109;2,294;24
+Setúbal;Sesimbra;Gasolina simples 95;1511;2,148;2,088;2,209;9
+Setúbal;Sesimbra;Gasóleo simples;1511;2,182;2,092;2,254;8
+Setúbal;Setúbal;Gasolina simples 95;1512;2,176;2,119;2,209;22
+Setúbal;Setúbal;Gasóleo simples;1512;2,224;2,159;2,249;20
+Setúbal;Sines;Gasolina simples 95;1513;2,172;2,049;2,249;6
+Setúbal;Sines;Gasóleo simples;1513;2,226;2,119;2,289;6
+Viana do Castelo;Arcos de Valdevez;Gasolina simples 95;1601;2,157;2,061;2,249;6
+Viana do Castelo;Arcos de Valdevez;Gasóleo simples;1601;2,204;2,112;2,294;6
+Viana do Castelo;Caminha;Gasolina simples 95;1602;2,162;2,059;2,249;6
+Viana do Castelo;Caminha;Gasóleo simples;1602;2,201;2,119;2,294;5
+Viana do Castelo;Melgaço;Gasolina simples 95;1603;2,171;2,143;2,210;3
+Viana do Castelo;Melgaço;Gasóleo simples;1603;2,237;2,230;2,243;3
+Viana do Castelo;Monção;Gasolina simples 95;1604;2,133;2,094;2,162;6
+Viana do Castelo;Monção;Gasóleo simples;1604;2,152;2,059;2,209;5
+Viana do Castelo;Paredes de Coura;Gasolina simples 95;1605;2,149;2,093;2,199;3
+Viana do Castelo;Paredes de Coura;Gasóleo simples;1605;2,236;2,189;2,289;3
+Viana do Castelo;Ponte da Barca;Gasolina simples 95;1606;2,157;2,108;2,249;3
+Viana do Castelo;Ponte da Barca;Gasóleo simples;1606;2,234;2,159;2,294;3
+Viana do Castelo;Ponte de Lima;Gasolina simples 95;1607;2,193;2,083;2,249;13
+Viana do Castelo;Ponte de Lima;Gasóleo simples;1607;2,258;2,189;2,294;10
+Viana do Castelo;Valença;Gasolina simples 95;1608;2,170;2,159;2,179;4
+Viana do Castelo;Valença;Gasóleo simples;1608;2,233;2,219;2,249;4
+Viana do Castelo;Viana do Castelo;Gasolina simples 95;1609;2,153;2,019;2,224;28
+Viana do Castelo;Viana do Castelo;Gasóleo simples;1609;2,211;2,109;2,264;27
+Viana do Castelo;Vila Nova de Cerveira;Gasóleo simples;1610;2,268;2,266;2,268;4
+Vila Real;Alijó;Gasolina simples 95;1701;2,156;2,069;2,213;6
+Vila Real;Alijó;Gasóleo simples;1701;2,231;2,199;2,296;5
+Vila Real;Boticas;Gasolina simples 95;1702;2,199;2,182;2,214;3
+Vila Real;Boticas;Gasóleo simples;1702;2,252;2,237;2,269;3
+Vila Real;Chaves;Gasolina simples 95;1703;2,137;2,050;2,169;11
+Vila Real;Chaves;Gasóleo simples;1703;2,189;2,144;2,214;9
+Vila Real;Mesão Frio;Gasolina simples 95;1704;2,209;2,209;2,209;1
+Vila Real;Mesão Frio;Gasóleo simples;1704;2,259;2,259;2,259;1
+Vila Real;Mondim de Basto;Gasolina simples 95;1705;2,241;2,129;2,329;6
+Vila Real;Mondim de Basto;Gasóleo simples;1705;2,220;2,099;2,294;3
+Vila Real;Montalegre;Gasolina simples 95;1706;2,164;2,089;2,249;7
+Vila Real;Montalegre;Gasóleo simples;1706;2,216;2,129;2,294;6
+Vila Real;Murça;Gasolina simples 95;1707;2,197;2,156;2,224;3
+Vila Real;Murça;Gasóleo simples;1707;2,266;2,264;2,269;3
+Vila Real;Peso da Régua;Gasolina simples 95;1708;2,176;2,089;2,224;6
+Vila Real;Peso da Régua;Gasóleo simples;1708;2,208;2,089;2,269;6
+Vila Real;Ribeira de Pena;Gasolina simples 95;1709;2,134;2,059;2,202;3
+Vila Real;Ribeira de Pena;Gasóleo simples;1709;2,196;2,089;2,250;3
+Vila Real;Sabrosa;Gasolina simples 95;1710;2,230;2,202;2,254;4
+Vila Real;Sabrosa;Gasóleo simples;1710;2,262;2,249;2,294;4
+Vila Real;Santa Marta de Penaguião;Gasolina simples 95;1711;2,188;2,165;2,212;2
+Vila Real;Santa Marta de Penaguião;Gasóleo simples;1711;2,271;2,266;2,276;2
+Vila Real;Valpaços;Gasolina simples 95;1712;2,167;2,069;2,233;9
+Vila Real;Valpaços;Gasóleo simples;1712;2,209;2,099;2,273;9
+Vila Real;Vila Pouca de Aguiar;Gasolina simples 95;1713;2,169;2,062;2,219;7
+Vila Real;Vila Pouca de Aguiar;Gasóleo simples;1713;2,223;2,109;2,264;5
+Vila Real;Vila Real;Gasolina simples 95;1714;2,170;2,049;2,259;21
+Vila Real;Vila Real;Gasóleo simples;1714;2,222;2,129;2,304;21
+Viseu;Armamar;Gasolina simples 95;1801;2,163;2,138;2,179;3
+Viseu;Armamar;Gasóleo simples;1801;2,222;2,219;2,224;2
+Viseu;Carregal do Sal;Gasolina simples 95;1802;2,147;2,088;2,194;7
+Viseu;Carregal do Sal;Gasóleo simples;1802;2,194;2,092;2,274;6
+Viseu;Castro Daire;Gasolina simples 95;1803;2,155;2,039;2,213;6
+Viseu;Castro Daire;Gasóleo simples;1803;2,198;2,079;2,254;6
+Viseu;Cinfães;Gasolina simples 95;1804;2,170;2,063;2,207;7
+Viseu;Cinfães;Gasóleo simples;1804;2,215;2,103;2,249;7
+Viseu;Lamego;Gasolina simples 95;1805;2,187;2,134;2,224;5
+Viseu;Lamego;Gasóleo simples;1805;2,262;2,189;2,319;5
+Viseu;Mangualde;Gasolina simples 95;1806;2,166;2,084;2,204;9
+Viseu;Mangualde;Gasóleo simples;1806;2,200;2,084;2,249;9
+Viseu;Moimenta da Beira;Gasolina simples 95;1807;2,160;2,135;2,224;6
+Viseu;Moimenta da Beira;Gasóleo simples;1807;2,198;2,169;2,259;5
+Viseu;Mortágua;Gasolina simples 95;1808;2,168;2,048;2,219;4
+Viseu;Mortágua;Gasóleo simples;1808;2,216;2,099;2,264;4
+Viseu;Nelas;Gasolina simples 95;1809;2,134;2,069;2,179;7
+Viseu;Nelas;Gasóleo simples;1809;2,176;2,099;2,224;6
+Viseu;Oliveira de Frades;Gasolina simples 95;1810;2,152;2,049;2,213;9
+Viseu;Oliveira de Frades;Gasóleo simples;1810;2,198;2,119;2,253;8
+Viseu;Penalva do Castelo;Gasolina simples 95;1811;2,184;2,169;2,199;2
+Viseu;Penalva do Castelo;Gasóleo simples;1811;2,269;2,269;2,269;1
+Viseu;Penedono;Gasolina simples 95;1812;2,193;2,184;2,202;2
+Viseu;Penedono;Gasóleo simples;1812;2,239;2,239;2,239;1
+Viseu;Resende;Gasolina simples 95;1813;2,231;2,212;2,249;4
+Viseu;Resende;Gasóleo simples;1813;2,270;2,253;2,284;4
+Viseu;Santa Comba Dão;Gasolina simples 95;1814;2,135;2,048;2,179;7
+Viseu;Santa Comba Dão;Gasóleo simples;1814;2,183;2,099;2,224;7
+Viseu;Sernancelhe;Gasolina simples 95;1818;2,171;2,138;2,202;4
+Viseu;Sernancelhe;Gasóleo simples;1818;2,229;2,189;2,250;3
+Viseu;Sátão;Gasolina simples 95;1817;2,143;2,029;2,213;7
+Viseu;Sátão;Gasóleo simples;1817;2,187;2,089;2,290;6
+Viseu;São João da Pesqueira;Gasolina simples 95;1815;2,154;2,059;2,213;5
+Viseu;São João da Pesqueira;Gasóleo simples;1815;2,197;2,099;2,253;5
+Viseu;São Pedro do Sul;Gasolina simples 95;1816;2,147;2,024;2,189;9
+Viseu;São Pedro do Sul;Gasóleo simples;1816;2,224;2,084;2,399;9
+Viseu;Tabuaço;Gasolina simples 95;1819;2,162;2,154;2,169;2
+Viseu;Tabuaço;Gasóleo simples;1819;2,259;2,259;2,259;1
+Viseu;Tarouca;Gasolina simples 95;1820;2,232;2,215;2,249;2
+Viseu;Tarouca;Gasóleo simples;1820;2,274;2,259;2,289;2
+Viseu;Tondela;Gasolina simples 95;1821;2,185;2,096;2,249;14
+Viseu;Tondela;Gasóleo simples;1821;2,220;2,092;2,294;13
+Viseu;Vila Nova de Paiva;Gasolina simples 95;1822;2,144;2,135;2,159;3
+Viseu;Vila Nova de Paiva;Gasóleo simples;1822;2,179;2,179;2,179;1
+Viseu;Viseu;Gasolina simples 95;1823;2,139;2,039;2,214;35
+Viseu;Viseu;Gasóleo simples;1823;2,185;2,069;2,293;35
+Viseu;Vouzela;Gasolina simples 95;1824;2,176;2,138;2,229;7
+Viseu;Vouzela;Gasóleo simples;1824;2,240;2,189;2,309;6
+Évora;Alandroal;Gasolina simples 95;0701;2,214;2,213;2,214;2
+Évora;Alandroal;Gasóleo simples;0701;2,260;2,254;2,266;2
+Évora;Arraiolos;Gasolina simples 95;0702;2,137;2,049;2,164;5
+Évora;Arraiolos;Gasóleo simples;0702;2,234;2,193;2,259;3
+Évora;Borba;Gasolina simples 95;0703;2,168;2,096;2,232;5
+Évora;Borba;Gasóleo simples;0703;2,210;2,092;2,270;3
+Évora;Estremoz;Gasolina simples 95;0704;2,193;2,065;2,239;11
+Évora;Estremoz;Gasóleo simples;0704;2,232;2,072;2,299;11
+Évora;Montemor-o-Novo;Gasolina simples 95;0706;2,195;2,123;2,239;13
+Évora;Montemor-o-Novo;Gasóleo simples;0706;2,248;2,163;2,289;15
+Évora;Mora;Gasolina simples 95;0707;2,190;2,172;2,209;2
+Évora;Mora;Gasóleo simples;0707;2,197;2,140;2,254;2
+Évora;Mourão;Gasolina simples 95;0708;2,162;2,162;2,162;1
+Évora;Mourão;Gasóleo simples;0708;2,209;2,209;2,209;1
+Évora;Portel;Gasolina simples 95;0709;2,181;2,110;2,232;3
+Évora;Portel;Gasóleo simples;0709;2,222;2,148;2,269;3
+Évora;Redondo;Gasolina simples 95;0710;2,146;2,082;2,184;3
+Évora;Redondo;Gasóleo simples;0710;2,212;2,204;2,219;2
+Évora;Reguengos de Monsaraz;Gasolina simples 95;0711;2,145;2,113;2,162;3
+Évora;Reguengos de Monsaraz;Gasóleo simples;0711;2,181;2,153;2,209;2
+Évora;Vendas Novas;Gasolina simples 95;0712;2,178;2,099;2,239;6
+Évora;Vendas Novas;Gasóleo simples;0712;2,229;2,139;2,289;6
+Évora;Viana do Alentejo;Gasolina simples 95;0713;2,165;2,112;2,205;5
+Évora;Viana do Alentejo;Gasóleo simples;0713;2,189;2,152;2,241;5
+Évora;Vila Viçosa;Gasolina simples 95;0714;2,166;2,082;2,254;3
+Évora;Vila Viçosa;Gasóleo simples;0714;2,212;2,132;2,294;3
+Évora;Évora;Gasolina simples 95;0705;2,161;2,069;2,249;14
+Évora;Évora;Gasóleo simples;0705;2,226;2,123;2,319;14
