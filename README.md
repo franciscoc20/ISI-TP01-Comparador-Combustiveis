@@ -123,9 +123,3 @@ O repositório deve conter **as duas implementações** e os respetivos ficheiro
 - Preços dos combustíveis: [Direção-Geral de Energia e Geologia — Preços dos Combustíveis Online](https://precoscombustiveis.dgeg.gov.pt/).
 - Municípios e códigos INE utilizados no Pentaho: [GEO API PT](https://geoapi.pt/).
 - As três fontes de entrada da implementação KNIME estão incluídas em `data/input/knime/`.
-
-## Entrega
-
-Esta é uma **entrega conjunta** dos alunos **31079** e **33221**. O ficheiro a submeter deve chamar-se **`31079-33221.ZIP`**, contendo a pasta `tp01-31079-33221/` com este README, o relatório `doc/31079-33221_doc.pdf`, os projetos Pentaho e KNIME, os dados e o fluxo Node-RED.
-
-Antes da submissão, abrir o ZIP para confirmar que os ficheiros estão efetivamente incluídos, que o README está na raiz da pasta e que os caminhos necessários à execução estão explicados. A submissão é realizada por Francisco Alberto Martins Campinho.
