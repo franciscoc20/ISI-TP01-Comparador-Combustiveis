@@ -1,23 +1,19 @@
-# TP01 — Sistema de Integração e Comparação de Preços de Combustíveis em Portugal
+# TP01 — Integração e Comparação de Preços de Combustíveis em Portugal
 
 **Unidade curricular:** Integração de Sistemas de Informação (ISI) — Trabalho Prático 01  
 **Curso:** Licenciatura em Engenharia de Sistemas Informáticos  
 **Instituição:** Universidade Politécnica do Cávado e do Ave (UPCA)  
-**Docente:** Óscar Ribeiro  
 **Ano letivo:** 2026/2027  
-**Grupo:** Francisco Alberto Martins Campinho (n.º 31079) e Miguel Marques (n.º 33221)  
-**Entrega:** conjunta, submetida por Francisco Alberto Martins Campinho
+**Docente:** Óscar Ribeiro
 
-## 1. Descrição
+## Autores e divisão do trabalho
 
-O trabalho aborda a integração de dados relacionados com preços de combustíveis em Portugal através de **duas implementações ETL distintas**, desenvolvidas separadamente pelos elementos do grupo e reunidas nesta entrega:
+- **Francisco Alberto Martins Campinho — n.º 31079:** implementação em **Pentaho Data Integration (Kettle)**, Job de execução e apresentação dos resultados em **Node-RED**.
+- **Miguel Marques — n.º 33221:** implementação do workflow em **KNIME Analytics Platform**.
 
-- **Pentaho Data Integration (Kettle) e Node-RED — Francisco (31079):** processamento de CSV de Gasóleo simples e Gasolina simples 95 da DGEG, associação dos municípios à GEO API PT (JSON), validação, deduplicação e cálculo de estatísticas por município e combustível. O Job executa oito transformações e produz resultados em CSV e XML. O Node-RED permite consultar o CSV final numa tabela, num gráfico e através de um endpoint HTTP.
-- **KNIME — Miguel (33221):** workflow de integração de ficheiros CSV de preços, dados geográficos JSON e catálogo XML de combustíveis; inclui preparação de valores e tipos, filtragem, remoção de duplicados, correspondência entre as fontes com Joiner e exportação de uma tabela integrada para CSV. Na execução documentada, o resultado KNIME contém 5.466 linhas.
+O grupo apresenta **duas implementações independentes sobre o mesmo tema**. O Pentaho e o KNIME têm fontes, operações e resultados próprios; não existe comunicação automática entre os dois workflows. A submissão conjunta é realizada por Francisco Alberto Martins Campinho.
 
-São **duas soluções independentes para o mesmo tema**. Os seus resultados têm estruturas diferentes e não se deve assumir que são equivalentes ou que existe comunicação automática entre elas.
-
-## 2. Organização dos ficheiros
+## Estrutura da entrega
 
 ```text
 tp01-31079-33221/
@@ -25,100 +21,111 @@ tp01-31079-33221/
 ├── doc/
 │   └── 31079-33221_doc.pdf
 ├── dataintegration/
-│   ├── 01_gasoleo_simples.ktr
-│   ├── 03_gasolina_95_simples.ktr
-│   ├── 04_integrar_combustiveis.ktr
-│   ├── 05_validar_combustiveis.ktr
-│   ├── 06_identificar_duplicados.ktr
-│   ├── 07_geoapi_municipios.ktr
-│   ├── 08_cruzar_combustiveis_municipios.ktr
-│   ├── 09_estatisticas_combustiveis.ktr
-│   ├── 10_job_principal_etl.kjb
+│   ├── pentaho/
+│   │   ├── 01_gasoleo_simples.ktr
+│   │   ├── 03_gasolina_95_simples.ktr
+│   │   ├── 04_integrar_combustiveis.ktr
+│   │   ├── 05_validar_combustiveis.ktr
+│   │   ├── 06_identificar_duplicados.ktr
+│   │   ├── 07_geoapi_municipios.ktr
+│   │   ├── 08_cruzar_combustiveis_municipios.ktr
+│   │   ├── 09_estatisticas_combustiveis.ktr
+│   │   └── 10_job_principal_etl.kjb
 │   └── knime/
-│       └── [workflow KNIME e respetivos ficheiros do projeto]
+│       └── ETL_Combustiveis.knwf
 ├── data/
 │   ├── input/
-│   │   ├── [CSV originais do Pentaho]
-│   │   └── knime/  [CSV, JSON e XML utilizados no KNIME]
+│   │   ├── pentaho/                  # Os dois CSV originais da DGEG
+│   │   └── knime/
+│   │       ├── Postos.csv
+│   │       ├── postos_abastecimento.json
+│   │       └── catalogo_combustiveis.xml
 │   └── output/
-│       ├── [CSV e XML produzidos pelo Pentaho]
-│       └── knime/  [resultado_final.csv e outras saídas do KNIME]
+│       ├── pentaho/                  # CSV intermédios, rejeições e estatísticas finais CSV/XML
+│       └── knime/
+│           └── resultadofinal.csv
 └── src/
     └── node_red_combustiveis.json
 ```
 
-**Nota sobre a estrutura:** os textos entre parênteses retos são indicações de conteúdo, **não são nomes de ficheiros a criar**. Manter os nomes verdadeiros do projeto KNIME e dos dados originais. O workflow KNIME deve ser incluído na forma exportada pelo KNIME ou com os ficheiros necessários à sua abertura. Se contiver caminhos externos, esses caminhos terão de ser adaptados.
+As linhas com `#` no esquema são descrições das pastas, não nomes de ficheiros. **Manter os nomes originais dos dois CSV do Pentaho e dos resultados gerados.** Os ficheiros do KNIME acima têm os nomes confirmados no ZIP recebido do Miguel. O nome real da saída é `resultadofinal.csv` (sem sublinhado).
 
-## 3. Requisitos
+## Ferramentas necessárias
 
-- Pentaho Data Integration (PDI/Kettle CE 10.2) e Java compatível (desenvolvimento em Java 21).
-- KNIME Analytics Platform, com os nós/extensões usados no workflow entregue.
-- Node.js e Node-RED (desenvolvimento com Node.js 24 e Node-RED 5.0.8).
-- Pacote do dashboard `@flowfuse/node-red-dashboard` no Node-RED.
-- Acesso à Internet para a consulta REST à GEO API PT na implementação Pentaho.
-- Permissões para ler os ficheiros de entrada e escrever os ficheiros de saída.
+- **Pentaho Data Integration / Spoon** (desenvolvido com PDI CE 10.2) e Java compatível; no desenvolvimento foi utilizado Java 21.
+- **KNIME Analytics Platform**, com os nós/extensões requeridos pelo workflow importado.
+- **Node.js e Node-RED** (no desenvolvimento: Node.js 24 e Node-RED 5.0.8).
+- Pacote **`@flowfuse/node-red-dashboard`** para os elementos `ui-table` e `ui-chart` do Node-RED.
+- Ligação à Internet para a consulta à GEO API PT realizada pelo Pentaho.
 
-## 4. Executar a implementação Pentaho
+## Executar a parte Pentaho Kettle — Francisco
 
 1. Abrir o **Spoon**.
-2. Confirmar a existência dos dois CSV originais em `data/input/`.
-3. Rever os **caminhos dos ficheiros** nos passos de leitura e exportação dos `.ktr` e os caminhos das transformações referidas no `.kjb`. O projeto foi desenvolvido com caminhos locais do computador original, que podem não coincidir com a nova pasta de entrega.
-4. Ajustar as saídas para `data/output/`, se necessário.
-5. Abrir `dataintegration/10_job_principal_etl.kjb` e executar o Job (**Run/F9**).
-6. Confirmar no histórico que as **oito transformações** terminaram com sucesso.
-7. Consultar `data/output/estatisticas_combustiveis.csv` e `data/output/estatisticas_combustiveis.xml`.
+2. Confirmar que os dois CSV originais da DGEG estão em `data/input/pentaho/`.
+3. Abrir os ficheiros `.ktr` em `dataintegration/pentaho/` e **atualizar os caminhos de leitura e escrita** para a localização atual dos ficheiros. O projeto foi criado com caminhos absolutos do computador de desenvolvimento.
+4. Abrir `dataintegration/pentaho/10_job_principal_etl.kjb` e, nas entradas do Job, confirmar/atualizar a localização de cada uma das oito transformações `.ktr`.
+5. Confirmar que os passos de exportação escrevem em `data/output/pentaho/` e que esta pasta existe.
+6. Executar o Job através de **Run (F9)**. A transformação `07_geoapi_municipios` consulta a GEO API PT e necessita de acesso à rede.
+7. Verificar no histórico que as oito transformações terminaram com sucesso e abrir os resultados em `data/output/pentaho/`.
 
-**Resultados documentados do Pentaho:** 6.009 observações geograficamente validadas, zero registos rejeitados nas saídas documentadas e **555 grupos estatísticos**, exportados nos dois formatos. As estatísticas agrupam por `Distrito`, `Municipio`, `Combustivel` e `Codigo_INE`, calculando preço médio, mínimo, máximo e número de observações. `Numero_Registos` não representa necessariamente o número de postos distintos.
+O processo lê Gasóleo simples e Gasolina simples 95, converte os preços, valida registos, identifica duplicados, consulta os municípios e códigos INE da GEO API PT, associa os dados através de `Stream Lookup` e calcula estatísticas por `Distrito`, `Municipio`, `Combustivel` e `Codigo_INE`.
 
-## 5. Executar o Node-RED
+**Resultados da execução documentada:** 6.009 observações validadas, sem linhas nas saídas de rejeição documentadas, e 555 grupos estatísticos. Os resultados finais são `estatisticas_combustiveis.csv` e `estatisticas_combustiveis.xml`, com preços médio, mínimo e máximo e a contagem de observações. `Numero_Registos` não equivale necessariamente ao número de postos distintos.
 
-1. Iniciar o Node-RED num terminal do Windows:
+## Executar o Node-RED — Francisco
+
+1. Abrir um terminal e iniciar o serviço:
 
    ```powershell
    node-red
    ```
 
-2. Abrir `http://127.0.0.1:1880/`.
-3. Instalar `@flowfuse/node-red-dashboard`, caso não esteja instalado.
-4. Em **Menu → Import**, selecionar `src/node_red_combustiveis.json` e importar o fluxo.
-5. Nos **dois** nós `Ler Estatisticas CSV`, atualizar o caminho para o ficheiro `data/output/estatisticas_combustiveis.csv` na localização atual. O JSON exportado pode conservar caminhos absolutos antigos.
-6. Clicar em **Deploy**. Se necessário, clicar no nó `Atualizar Estatisticas`.
-7. Abrir:
-   - Dados em JSON: `http://127.0.0.1:1880/combustiveis`
-   - Dashboard: `http://127.0.0.1:1880/dashboard/page1`
+2. Abrir `http://127.0.0.1:1880/` no navegador.
+3. Instalar o módulo `@flowfuse/node-red-dashboard` pela gestão de paleta, se ainda não estiver instalado.
+4. No menu do Node-RED, escolher **Import** e selecionar `src/node_red_combustiveis.json`.
+5. Abrir **ambos** os nós chamados `Ler Estatisticas CSV` e alterar o caminho do ficheiro para a localização atual de `data/output/pentaho/estatisticas_combustiveis.csv`. O fluxo exportado inclui caminhos absolutos do computador original.
+6. Clicar em **Deploy**. Se a tabela não carregar, ativar o nó `Atualizar Estatisticas`.
+7. Consultar:
+   - **Endpoint HTTP (JSON):** http://127.0.0.1:1880/combustiveis
+   - **Dashboard:** http://127.0.0.1:1880/dashboard/page1
 
-A tabela mostra as estatísticas e o gráfico de barras representa o **número de registos**, não o preço médio. Não há atualização automática das fontes DGEG no dashboard.
+A tabela permite pesquisar os dados e o gráfico de barras mostra o **número de observações** associado aos municípios e combustíveis selecionados, não os preços médios. O Node-RED lê as estatísticas já exportadas pelo Pentaho; não atualiza automaticamente os preços da DGEG.
 
-## 6. Executar a implementação KNIME
+## Executar a parte KNIME — Miguel
 
 1. Abrir o **KNIME Analytics Platform**.
-2. Importar/abrir o workflow KNIME entregue em `dataintegration/knime/`, utilizando a opção de importação adequada ao formato disponibilizado.
-3. Conferir os caminhos para o **CSV de preços**, o **JSON de dados geográficos** e o **catálogo XML**, que devem estar incluídos em `data/input/knime/`.
-4. Confirmar as configurações de leitura e a pasta de saída do **CSV Writer**; atualizar eventuais caminhos absolutos para a localização atual.
-5. Executar o workflow e verificar os estados dos nós até ao CSV Writer.
-6. Consultar o ficheiro `resultado_final.csv` em `data/output/knime/`, ou no caminho efetivamente configurado na entrega. O resultado documentado tem **5.466 linhas**.
+2. Importar o workflow exportado `dataintegration/knime/ETL_Combustiveis.knwf` através da função de **importação de workflows** do KNIME.
+3. Abrir os nós de leitura e confirmar os caminhos para:
+   - `data/input/knime/Postos.csv` — dados tabulares dos postos e preços;
+   - `data/input/knime/postos_abastecimento.json` — dados geográficos de postos;
+   - `data/input/knime/catalogo_combustiveis.xml` — catálogo de códigos, nomes e unidades dos combustíveis.
+4. Atualizar caminhos locais, caso estejam configurados com localizações absolutas do computador do Miguel.
+5. Verificar o caminho de escrita do nó **CSV Writer** e apontá-lo para `data/output/knime/resultadofinal.csv`.
+6. Executar os nós do workflow até à saída e consultar o ficheiro final num editor de CSV ou no Excel.
 
-O workflow KNIME trata a ligação CSV/JSON através de campos preparados de **latitude aproximada, marca normalizada e longitude aproximada** e cruza posteriormente os dados com um catálogo XML de combustíveis. Os detalhes devem ser confirmados no workflow e no relatório; não foi demonstrada execução conjunta com o Job Pentaho.
+A implementação KNIME trata tipos e valores em falta, remove duplicados, filtra preços, normaliza marcas e coordenadas e associa as origens através de nós `Joiner`, acrescentando ainda dados do catálogo XML. O cruzamento CSV/JSON utiliza os campos preparados de latitude aproximada, marca normalizada e longitude aproximada. **Na execução documentada, o resultado final tinha 5.466 linhas.** Os resultados não devem ser comparados diretamente com os 555 grupos estatísticos do Pentaho, pois as saídas têm granularidade diferente.
 
-## 7. Fontes e saídas
-
-**Pentaho:** ficheiros CSV de Gasóleo simples e Gasolina simples 95, obtidos no portal [Preços dos Combustíveis Online — DGEG](https://precoscombustiveis.dgeg.gov.pt/); referência municipal da [GEO API PT](https://geoapi.pt/). Saídas CSV e XML, incluindo ficheiros intermédios e ficheiros de rejeição (que podem estar vazios).
-
-**KNIME:** CSV de preços, JSON de dados geográficos de postos e catálogo XML de combustíveis, conforme documentado no relatório e nos ficheiros de entrada incluídos. Saída tabular `resultado_final.csv`.
-
-## 8. Vídeos de demonstração
+## Vídeos de demonstração
 
 - **Pentaho Kettle e Node-RED — Francisco:** https://youtu.be/Os4p-xmINcE
-- **KNIME — Miguel:** QR Code e ligação de acesso incluídos no capítulo 9 do relatório integrado: https://qrto.org/lHya9e (confirmar que o endereço abre o vídeo correto).
+- **KNIME — Miguel:** https://qrto.org/lHya9e (ligação associada ao QR Code fornecido pelo Miguel; confirmar acesso ao vídeo)
 
-## 9. Repositório GitHub
+Os QR Codes também se encontram no capítulo dedicado à demonstração do relatório.
+
+## Repositório GitHub
 
 **Repositório conjunto:** https://github.com/franciscoc20/ISI-TP01-Comparador-Combustiveis
 
-O repositório deverá conter os **ficheiros dos dois elementos**, e não apenas o Pentaho/Node-RED. Depois de acrescentar o workflow e os dados KNIME, atualizar o README no GitHub com esta versão.
+O repositório deve conter **as duas implementações** e os respetivos ficheiros de entrada, saída e documentação. A estrutura das pastas permite identificar os ficheiros de cada elemento.
 
-## 10. Submissão
+## Fontes
 
-Entregar **um único ficheiro `31079-33221.ZIP`**, que contenha a pasta raiz `tp01-31079-33221/` com o README, relatório, fontes e dados das duas implementações. O PDF integrado deve estar em `doc/31079-33221_doc.pdf`. A submissão será feita por Francisco Alberto Martins Campinho, em nome do grupo, até **22 de outubro de 2026, às 23h59**.
+- Preços dos combustíveis: [Direção-Geral de Energia e Geologia — Preços dos Combustíveis Online](https://precoscombustiveis.dgeg.gov.pt/).
+- Municípios e códigos INE utilizados no Pentaho: [GEO API PT](https://geoapi.pt/).
+- As três fontes de entrada da implementação KNIME estão incluídas em `data/input/knime/`.
 
-Antes de submeter, verificar que os ficheiros KNIME estão presentes e que os links dos vídeos e do repositório funcionam.
+## Entrega
+
+Esta é uma **entrega conjunta** dos alunos **31079** e **33221**. O ficheiro a submeter deve chamar-se **`31079-33221.ZIP`**, contendo a pasta `tp01-31079-33221/` com este README, o relatório `doc/31079-33221_doc.pdf`, os projetos Pentaho e KNIME, os dados e o fluxo Node-RED.
+
+Antes da submissão, abrir o ZIP para confirmar que os ficheiros estão efetivamente incluídos, que o README está na raiz da pasta e que os caminhos necessários à execução estão explicados. A submissão é realizada por Francisco Alberto Martins Campinho.
